@@ -1,0 +1,16 @@
+str=" Hello "
+str1=" World "
+print(len(str))
+print(len(str.strip()))
+print(str.find("llo"))
+print(str.upper())
+print(str.lower())
+print(str.casefold())
+print(str)
+print(str.count("H"))
+print(str.replace('l','z'))
+print(str.replace('l','z',2))
+print(str.swapcase( ))
+print(str.split("l"))
+print(str.split("l",1))
+print(str.join(str1))
